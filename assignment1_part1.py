@@ -1,6 +1,5 @@
-if __name__ == "__main__":
-    
-    def list_divide(numbers, divide):
+
+def list_divide(numbers, divide):
     """
     The function returns the number of elements in the numbers list that are divisible by divide
     """

@@ -1,4 +1,4 @@
-if __name__ == "__main__":
+def main():
 
     class Book:
         def __init__(self, author="", title=""):
@@ -13,3 +13,6 @@ book2 = Book("Walter Scott", "Ivanhoe: A Romance")
 
 book1.display()
 book2.display()
+
+if __name__ == "__main__":
+    main()

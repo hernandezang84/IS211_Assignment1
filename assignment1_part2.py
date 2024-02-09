@@ -1,10 +1,8 @@
-if __name__ == "__main__":
-
-    class Book:
+class Book:
         def __init__(self, author, title):
             pass
     
-    def display(self):
+def display(self):
         pass
 
 

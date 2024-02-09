@@ -1,7 +1,7 @@
-if __name__ == "__main__":
+def main():
 
-    class ListDivideException(Exception):
-        pass
+        class ListDivideException(Exception):
+            pass
 
 def list_divide(numbers, divide=2):
     return len([num for num in numbers if num % divide == 0])
@@ -21,3 +21,6 @@ def test_list_divide():
 
 
 test_list_divide()
+
+if __name__ == "__main__":
+    main()
